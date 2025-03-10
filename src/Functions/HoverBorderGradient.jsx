@@ -8,8 +8,8 @@ export function HoverBorderGradientDemo() {
       <HoverBorderGradient
         containerClassName="rounded-full"
         as="button"
-        className="dark:bg-black bg-white text-black text-4xl dark:text-white flex items-center space-x-2">
-        <span className="flex items-center group  items-center gap-2"> You need a Developer ?
+        className="dark:bg-black bg-white group text-black text-4xl dark:text-white flex items-center space-x-2">
+        <span className="flex items-center  items-center gap-2"> You need a Developer ?
 
           <div className="relative overflow-hidden">
             <span className="block transition-all duration-300 group-hover:translate-x-[150%] group-hover:translate-y-[-100%]">
