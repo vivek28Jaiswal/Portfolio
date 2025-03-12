@@ -11,14 +11,14 @@ const Skills = () => {
       </div>
 
       <div>
-        <div className='h-[3px] w-[90vw] flex gap-44 relative text-white text-3xl text-black bg-zinc-300'>
+        <div className='h-[3px] w-[90vw] flex gap-44 relative text-black text-3xl text-black bg-zinc-300'>
           <div className='h-[50px] mt-[-4vh] relative w-[50px] flex justify-center items-center bg-zinc-300 rounded-full'>
             <i class="ri-reactjs-fill"></i>
             <div className='absolute top-[30vh] left-5 gap-3 flex'>
               <div className='  translate-y-[-50%] scale-[210%]'>
                 <Svg />
               </div>
-              <div className='w-[20vw] mt-[-15vh] h-[30vh] '>
+              <div className='w-[20vw] mt-[-15vh] text-white h-[30vh] '>
                 <h1 className='text-5xl'>React JS</h1>
                 <p className='text-2xl text-zinc-300'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
               </div>
@@ -32,7 +32,7 @@ const Skills = () => {
               <div className='  translate-y-[-50%] scale-[210%]'>
                 <Svg />
               </div>
-              <div className='w-[20vw] mt-[-15vh] h-[30vh] '>
+              <div className='w-[20vw] mt-[-15vh] text-white h-[30vh] '>
                 <h1 className='text-5xl'>React JS</h1>
                 <p className='text-2xl text-zinc-300'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
               </div>
@@ -44,7 +44,7 @@ const Skills = () => {
               <div className='  translate-y-[-50%] scale-[210%]'>
                 <Svg />
               </div>
-              <div className='w-[20vw] mt-[-15vh] h-[30vh] '>
+              <div className='w-[20vw] mt-[-15vh] text-white h-[30vh] '>
                 <h1 className='text-5xl'>React JS</h1>
                 <p className='text-2xl text-zinc-300'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
               </div>
@@ -56,7 +56,7 @@ const Skills = () => {
               <div className='  translate-y-[-50%] scale-[210%]'>
                 <Svg />
               </div>
-              <div className='w-[20vw] mt-[-15vh] h-[30vh]'>
+              <div className='w-[20vw] mt-[-15vh] text-white h-[30vh]'>
                 <h1 className='text-5xl'>React JS</h1>
                 <p className='text-2xl text-zinc-300'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
               </div>
@@ -68,7 +68,7 @@ const Skills = () => {
               <div className='  translate-y-[-50%] scale-[210%]'>
                 <Svg />
               </div>
-              <div className='w-[20vw] mt-[-15vh] h-[30vh] '>
+              <div className='w-[20vw] mt-[-15vh] text-white h-[30vh] '>
                 <h1 className='text-5xl'>React JS</h1>
                 <p className='text-2xl text-zinc-300'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
               </div>
