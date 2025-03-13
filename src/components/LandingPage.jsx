@@ -54,7 +54,7 @@ const LandingPage = () => {
           <div className='w-[5%] mt-[15vh] lg:mt-[30vh] h-[5vh] lg:h-[10vh] bg-zinc-300'></div>
 
           <div className='absolute right-0 lg:right-[-3%] mt-[2%] lg:mt-[4%] 2xl:mt-[8%] pointer-events-none w-1/2 lg:w-[55%] 2xl:w-[48%]'>
-            <img src='/Modelimg.png' alt='' className='w-full h-auto' />
+            <img src='/assets/Modelimg.png' alt='' className='w-full h-auto' />
           </div>
         </div>
 

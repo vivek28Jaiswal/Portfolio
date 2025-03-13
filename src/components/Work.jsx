@@ -3,35 +3,35 @@ import React from 'react'
 const Work = () => {
   const works = [
     {
-      sno: "01",
+      sno: "01", 
       name:"REBELLION",
-      text:"Whether you're animating UI, SVG or creating immersive WebGL",
+      text:"Whether you're animating UI, SVG or creating immersive WebGL",
       desc:"Passionate about UI/UX design and full-stack development, I merge creativity with technology to craft immersive, user-centric, and visually compelling digital experiences. From sleek interfaces to powerful web applications, I transform ideas into reality with innovation, precision, and clean, efficient code.",
-      img: "/image1.png"
+      img: "/assets/image1.png"
 
     },
     {
       sno: "02",
-      name:"MIRANDA",
-      text:"Whether you're animating UI, SVG or creating immersive WebGL",
+      name:"MIRANDA", 
+      text:"Whether you're animating UI, SVG or creating immersive WebGL",
       desc:"Passionate about UI/UX design and full-stack development, I merge creativity with technology to craft immersive, user-centric, and visually compelling digital experiences. From sleek interfaces to powerful web applications, I transform ideas into reality with innovation, precision, and clean, efficient code.",
-      img: "/image2.png"
+      img: "../assets/image2.png"
 
     },
     {
       sno: "03",
       name:"OBYSS",
-      text:"Whether you're animating UI, SVG or creating immersive WebGL",
+      text:"Whether you're animating UI, SVG or creating immersive WebGL", 
       desc:"Passionate about UI/UX design and full-stack development, I merge creativity with technology to craft immersive, user-centric, and visually compelling digital experiences. From sleek interfaces to powerful web applications, I transform ideas into reality with innovation, precision, and clean, efficient code.",
-      img: "/image3.png"
+      img: "../assets/image3.png"
 
     },
     {
       sno: "04",
       name:"MASTER",
-      text:"Whether you're animating UI, SVG or creating immersive WebGL",
+      text:"Whether you're animating UI, SVG or creating immersive WebGL",
       desc:"Passionate about UI/UX design and full-stack development, I merge creativity with technology to craft immersive, user-centric, and visually compelling digital experiences. From sleek interfaces to powerful web applications, I transform ideas into reality with innovation, precision, and clean, efficient code.",
-      img: "/image4.png"
+      img: "../assets/image4.png"
 
     }
   ]
