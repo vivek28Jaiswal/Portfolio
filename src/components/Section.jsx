@@ -1,6 +1,7 @@
 import React from 'react'
 import { GridBackgroundDemo } from '../Functions/Background'
 import Skills from './Skills'
+import Work from './Work'
 
 const Section = () => {
   return (

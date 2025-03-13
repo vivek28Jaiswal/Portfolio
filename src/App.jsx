@@ -4,6 +4,7 @@ import LandingPage from "./components/LandingPage";
 import { Spotlight } from "./Functions/Spotlight";
 import Main from "./components/Main";
 import Section from "./components/Section";
+import Work from "./components/Work";
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
 
         <Main />
         <Section />
+        <Work />
       </div>
 
     </div>

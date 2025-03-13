@@ -3,7 +3,7 @@ import Svg from './ui/Svg'
 
 const Skills = () => {
   return (
-    <div className='w-full mt-10 flex flex-col justify-between py-10 items-end min-h-screen text-white '>
+    <div className='w-full flex flex-col justify-between pb-20 items-end min-h-screen text-white '>
       <div className='flex flex-col items-end '>
         <h1 className='font-rogshire text-8xl text-end'>Skills</h1>
         <p className='text-end text-3xl w-[30vw]'>Whether you're animating UI, SVG or creating immersive WebGL experiences, GSAP has your back.</p>
