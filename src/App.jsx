@@ -19,6 +19,8 @@ const App = () => {
     const scrollInstance = new LocomotiveScroll({
       el: document.querySelector("[data-scroll-container]"), // Yeh important hai
       smooth: true,
+      lerp: 0.08, // Scroll smoothness (default: 0.1)
+      multiplier: 1.2, 
     });
 
     setLocomotiveScroll(scrollInstance);
