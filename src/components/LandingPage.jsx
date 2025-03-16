@@ -5,7 +5,7 @@ import { HoverBorderGradientDemo } from '../Functions/HoverBorderGradient';
 
 const LandingPage = () => {
   return (
-    <div className='p-10'>
+    <div  className='p-10'>
       <div className='text-white w-full rounded-lg border-zinc-800 font-rogshire border-b-[1.5px] border-x-[1.5px] lg:min-h-[90vh] bg-transparent'>
         
         {/* Header Section */}
