@@ -27,8 +27,8 @@ const Main = () => {
                 </div>
               </div>
               <div className="relative w-full h-[calc(100%-4rem)] px-4 sm:px-[1vw]">
-                <p className="text-lg sm:text-xl lg:text-2xl 2xl:text-2xl text-[#FFFFFF] w-[90%] relative z-[99] font-rogshire leading-none">
-                  I'm [Your Name], a UI/UX designer & frontend developer passionate about crafting intuitive, engaging, and interactive digital experiences. With a keen eye for detail and a love for seamless design, I bring ideas to life through thoughtful interfaces and smooth animations.
+                <p className="text-lg sm:text-xl lg:text-2xl 2xl:text-2xl text-[#FFFFFF] w-[90%] relative z-[99] font-rogshire leading-none lg:leading-[0.9] 2xl:leading-[0.95]">
+                  I'm vivek jaiswal, a UI/UX designer & frontend developer passionate about crafting intuitive, engaging, and interactive digital experiences. With a keen eye for detail and a love for seamless design, I bring ideas to life through thoughtful interfaces and smooth animations.
                 </p>
                 <img 
                   src="/assets/BentoLaptopScreen.png" 
@@ -55,13 +55,13 @@ const Main = () => {
                 </div>
               </div>
               <div className="relative w-full h-[calc(100%-4rem)] px-4 sm:px-[1vw]">
-                <p className="text-lg sm:text-xl lg:text-2xl 2xl:text-2xl text-[#FFFFFF] w-[90%] relative z-[99] font-rogshire leading-none">
+                <p className="text-lg sm:text-xl lg:text-2xl 2xl:text-2xl text-[#FFFFFF] w-[90%] relative z-[99] font-rogshire leading-none lg:leading-[0.9] 2xl:leading-[0.95]">
                   I have participated in several hackathons, where I not only showcased my skills but also secured victories. These experiences have allowed me to push my limits, collaborate with talented individuals, and develop innovative solutions under pressure. Additionally, I have actively joined numerous coding events, continuously learning and connecting with like-minded enthusiasts to stay ahead in the tech world.
                 </p>
                 <img 
                   src="/assets/SinglePhone.png" 
                   alt="Design and Code"
-                  className="2xl:mt-[3vw] lg:mt-[20vh] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 lg:w-[60%] 2xl:w-[100%] h-auto max-h-[80%] object-contain rounded-lg z-[9]"
+                  className="2xl:mt-[3vw] lg:mt-[20vh] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 lg:w-[60%] 2xl:w-[70%] h-auto max-h-[80%] object-contain rounded-lg z-[9]"
                 />
               </div>
             </div>
@@ -83,7 +83,7 @@ const Main = () => {
                 </div>
               </div>
               <div className="relative w-full h-[calc(100%-4rem)] px-4 sm:px-[1vw]">
-                <p className="text-lg sm:text-xl lg:text-2xl 2xl:text-2xl text-[#FFFFFF] w-[90%] relative z-[99] font-rogshire leading-none">
+                <p className="text-lg sm:text-xl lg:text-2xl 2xl:text-2xl text-[#FFFFFF] w-[90%] relative z-[99] font-rogshire leading-none lg:leading-[0.9] 2xl:leading-[0.95]">
                   I have participated in several hackathons, where I not only showcased my skills but also secured victories. These experiences have allowed me to push my limits, collaborate with talented individuals, and develop innovative solutions under pressure. Additionally, I have actively joined numerous coding events, continuously learning and connecting with like-minded enthusiasts to stay ahead in the tech world.
                 </p>
                 <img 
@@ -113,7 +113,7 @@ const Main = () => {
                 </div>
               </div>
               <div className="relative w-full h-[calc(100%-4rem)] px-4 sm:px-[1vw]">
-                <p className="text-lg sm:text-xl lg:text-2xl 2xl:text-2xl text-[#FFFFFF] w-[80%] relative z-[99] font-rogshire leading-none">
+                <p className="text-lg sm:text-xl lg:text-2xl 2xl:text-2xl text-[#FFFFFF] w-[90%] relative z-[99] font-rogshire leading-none lg:leading-[0.9] 2xl:leading-[0.95]">
                   Passionate about UI/UX design and full-stack development, I merge creativity with technology to craft immersive, user-centric, and visually compelling digital experiences. From sleek interfaces to powerful web applications, I transform ideas into reality with innovation, precision, and clean, efficient code.
                 </p>
                 <img 
@@ -172,7 +172,7 @@ const Main = () => {
                 </div>
               </div>
               <div className="relative w-full h-[calc(100%-4rem)] px-4 sm:px-[1vw]">
-                <p className="text-lg sm:text-xl lg:text-2xl 2xl:text-2xl text-[#FFFFFF] w-[90%] relative z-[99] font-rogshire leading-none">
+                <p className="text-lg sm:text-xl lg:text-2xl 2xl:text-2xl text-[#FFFFFF] w-[90%] relative z-[99] font-rogshire leading-none lg:leading-[0.9] 2xl:leading-[0.95]">
                   I'm [Your Name], a UI/UX designer & frontend developer passionate about crafting intuitive, engaging, and interactive digital experiences. With a keen eye for detail and a love for seamless design, I bring ideas to life through thoughtful interfaces and smooth animations.
                 </p>
                 <img 

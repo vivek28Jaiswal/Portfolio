@@ -115,8 +115,9 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className='w-full flex absolute bottom-0 items-center px-5 lg:px-8 2xl:px-10 h-[10vh] lg:h-[12vh]'>
+          <div className='w-full flex absolute bottom-0 items-center px-5 lg:px-8 2xl:px-10 h-[10vh] lg:h-[12vh] justify-between'>
             <h1 className='text-sm lg:text-base 2xl:text-lg'> &copy; 2025 Copyrights </h1>
+            <h1 className='text-sm lg:text-base 2xl:text-lg'> MADE WITH ❤️</h1>
           </div>
 
         </div>
