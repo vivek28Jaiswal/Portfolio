@@ -2,55 +2,41 @@ import React, { useState, useEffect } from 'react'
 import { GridBackgroundDemo } from "./Functions/Background";
 import LandingPage from "./components/LandingPage";
 import { Spotlight } from "./Functions/Spotlight";
+import Lenis from "@studio-freight/lenis";
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
 import Main from "./components/Main";
 import Section from "./components/Section";
 import Footer from "./components/Footer";
 import Work from "./components/Work";
-import LocomotiveScroll from 'locomotive-scroll';
+
+gsap.registerPlugin(ScrollTrigger);
 
 
 const App = () => {
-  const [locomotiveScroll, setLocomotiveScroll] = useState(null);
-  const [scroll, setScroll] = useState(false);
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
-
   useEffect(() => {
-    const scrollInstance = new LocomotiveScroll({
-      el: document.querySelector("[data-scroll-container]"), // Yeh important hai
+    const lenis = new Lenis({
       smooth: true,
-      lerp: 0.08, // Scroll smoothness (default: 0.1)
-      multiplier: 1.2, 
+      lerp: 0.08, // Smooth scrolling factor
+      wheelMultiplier: 1.2,
     });
 
-    setLocomotiveScroll(scrollInstance);
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+    requestAnimationFrame(raf);
 
-    const handleResize = () => {
-      setWindowWidth(window.innerWidth);
-      scrollInstance.update(); // Resize hone par scroll update hoga
-    };
-
-    window.addEventListener("resize", handleResize);
+    // ✅ GSAP + Lenis Sync
+    lenis.on("scroll", ScrollTrigger.update);
 
     return () => {
-      window.removeEventListener("resize", handleResize);
-      if (scrollInstance) {
-        scrollInstance.destroy(); // Cleanup properly
-      }
+      lenis.destroy();
     };
   }, []);
 
-
-  const handleScroll = () => {
-    A
-    setScroll(true);
-  };
-
   return (
-    <div
-      onScroll={handleScroll}
-      data-scroll-container
-      className="relative w-full overflow-x-hidden"
+    <div className='overflow-x-hidden'
     >
       <div className="fixed inset-0">
         <GridBackgroundDemo />
