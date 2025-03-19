@@ -1,10 +1,18 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const Work = () => {
-  
+  const [Window, setWindow] = useState(window.innerWidth)
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   const works = [
     {
@@ -35,35 +43,44 @@ const Work = () => {
   ];
 
   useEffect(() => {
+    // Adjust y value based on screen width
+    let yValue;
+    if (Window> 1440) {
+      yValue = 420; // Desktop
+    } else if (Window>1305) {
+      yValue = 270; // 15-inch laptop
+    } else {
+      yValue = 220; // Smaller laptops
+    }
+
     gsap.utils.toArray(".work-item").forEach((item, i) => {
       gsap.set(item, { zIndex: works.length - i });
 
       gsap.to(item, {
-        y: 230 * i,
-        rotate:0,
-        opacity:1,
+        y: yValue * i, // Use dynamic y value
+        rotate: 0,
+        opacity: 1,
         scrollTrigger: {
           trigger: item,
-          start: "top 50%", // Section starts fading out when its top hits the top of the viewport
-          end: "bottom 20%", // Section ends fading out when its bottom hits the top of the viewport
-          scrub:0.3 ,          // Smooth scrubbing effect
-
+          start: "top 50%",
+          end: "bottom 20%",
+          scrub: 0.3,
         },
       });
     });
 
     ScrollTrigger.refresh();
-  }, []);
+  }, [Window]);
 
   return (
-    <div className="w-full h-[200vh] relative font-rogshire min-h-screen bg-black text-white p-10 overflow-hidden">
+    <div className="w-full lg:h-[200vh] relative font-rogshire min-h-screen bg-black text-white p-10 overflow-hidden">
     {/* ✅ `overflow-hidden` to remove horizontal scrollbar */}
     <h1 className="font-rogshire text-8xl">Best Works</h1>
     <div className="w-full mt-20 rounded-2xl duration-300 flex flex-col gap-5">
       {works.map((work, idx) => (
         <div
           key={idx}
-          className="work-item w-full rotate-[-5deg] border-b-[1.5px] px-5 py-1 border-zinc-600 rounded-xl h-[35vh] flex bg-black absolute left-0"
+          className="work-item w-full rotate-[-5deg]  border-b-[1.5px] 2xl:mt-5 px-5 py-1 border-zinc-600 rounded-xl h-[35vh] flex bg-black absolute left-0"
           style={{
             transformOrigin: "center", // ✅ Rotation fix
           }}
